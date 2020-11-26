@@ -20,6 +20,7 @@ const MainCard = (props) => {
 
   const addEvent = () => {
     props.passNote(note);
+    setNote({ title: "", content: "" });
   };
 
   return (
